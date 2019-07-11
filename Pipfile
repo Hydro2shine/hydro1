@@ -1,0 +1,28 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[requires]
+python_version = "3.6"
+
+[packages]
+boto3 = "*"
+coverage = "*"
+django = "~=2.1.10"
+django-codemirror-widget = "*"
+gunicorn = "*"
+Pillow = "*"
+requests = "*"
+rollbar = "*"
+sorl-thumbnail = "*"
+zappa = "*"
+django-storages = "*"
+django-webpack-loader = "*"
+mysqlclient = "*"
+
+[dev-packages]
+django-debug-toolbar = "*"
+pytest = "*"
+pytest-django = "*"
+pytest-cov = "*"
